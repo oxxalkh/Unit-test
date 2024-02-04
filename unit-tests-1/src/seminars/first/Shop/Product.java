@@ -1,6 +1,7 @@
 package seminars.first.Shop;
 
 
+
 public class Product {
     private Integer cost; // Стоимость продукта
     private String title; // Название
