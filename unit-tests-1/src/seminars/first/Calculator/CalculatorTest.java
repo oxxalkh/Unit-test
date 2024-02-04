@@ -20,11 +20,6 @@ public class CalculatorTest {
                 Calculator.calculation(8, 0, '/')
         ).isInstanceOf(ArithmeticException.class);
 
-
-//        System.out.println(Calculator.calculation(2_147_483_647, 1, '+')); // integer overflow
-//        System.out.println(Calculator.squareRootExtraction(3));
-
-
         assertThat(seminars.first.Calculator.Calculator.squareRootExtraction(0.0)).isEqualTo(0.0);
         assertThat(seminars.first.Calculator.Calculator.squareRootExtraction(16.0)).isEqualTo(4.0);
         assertThatThrownBy(() ->

@@ -3,7 +3,6 @@ import java.util.*;
 import static org.assertj.core.api.Assertions.*;
 
 public class ShopTest {
-
     /*
    1. Напишите тесты, чтобы проверить, что магазин хранит верный список продуктов (правильное количество продуктов, верное содержимое корзины).
    2. Напишите тесты для проверки корректности работы метода getMostExpensiveProduct.
@@ -22,7 +21,6 @@ public class ShopTest {
         assertThat(testShop.sortProductsByPrice().get(2).getCost()).isEqualTo(100);
         assertThat(testShop.sortProductsByPrice().get(3).getCost()).isEqualTo(150);
         assertThat(testShop.sortProductsByPrice().get(4).getCost()).isEqualTo(250);
-
     }
 
     //    метод для создания списка продуктов
